@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    background-color: azure;
+    font-family: sans-serif;
+  }
+  
+  nav {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin: 20px 50px;
+    border-bottom: 1px solid rgb(216, 214, 214);
+    
+  }
+  
+  /* navigation all home to contact */
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    padding: 10px;
+  
+  }
+  
+  /* hover to navagation  */
+  nav ul li a:hover {
+    color: #0077ff;
+    
+    
+  }
+  .active {
+    color: #0077ff;
+  }
+  
+  
+  
+  /* parent for navigation  */
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  /* keshab name navigation  */
+  nav .logo a {
+    font-size: 28px;
+    color: #0077ff;
+    font-weight: bold;
+    text-decoration: none;
+  
+  }
+  
+  section{
+    margin: 10px 50px;
+    display: flex;
+    justify-content: space-between; 
+  }

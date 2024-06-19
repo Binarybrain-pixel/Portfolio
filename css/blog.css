@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+/* blog session start  */
+.blog-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  
+
+}
+
+.blog-image img{
+  width: 100%;
+  height: 200px;
+  
+    
+}
+
+.blog-container {
+  border: 1px solid red;
+  width: 900px;
+
+}
+
+.blog-decription p{
+text-align: justify;
+
+}
+

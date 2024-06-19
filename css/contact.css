@@ -1,0 +1,70 @@
+/* login page for contact me  */
+
+
+.login_page {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px; 
+  
+     
+  }
+  
+  
+  .contact-form{
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -2px 3px 10px rgb(206, 206, 206);
+  }
+  
+  .input-group{
+    margin: 15px 0;
+  }
+  
+  
+  .input-group label{
+    display: inline-block;
+    width: 150px;
+    
+  }
+  
+  ::-webkit-input-placeholder{
+    padding: 10px;
+  }
+  
+  .btn-contact {
+  text-decoration: none;
+  border: 1px solid aqua;
+  border-radius: 13px;
+  padding: 5px;
+  background-color: gray;
+  margin-top: 30px;
+  
+  
+  }
+  
+  .btn-contact :hover {
+    color: blueviolet;
+  }
+  
+  .Review-group {
+  text-align: center;
+  margin: 20px 0;
+  }
+  
+  #Review {
+    height: 115px;
+    width: 329px;
+    padding: 10px;
+  
+  }
+  /* review post  */
+  .review_post {
+    text-align: center;
+  }
+  
+  /* Error xa yesma  */
+  .review_box {
+    padding: 0;
+  }

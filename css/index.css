@@ -1,0 +1,74 @@
+/* for index page  */
+/* only pic  */
+#mypic {
+    height: 450px;
+  }
+  
+  
+  
+  
+  /* for all section  */
+  #home {
+    
+    display: flex;
+    align-items: center;
+    height: 500px;
+  
+  }
+  
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  
+  
+  /* hi i am  */
+  div .hi {
+    font-size: 50px;
+  }
+  
+  /* welcome to my portfolio  */
+  .Welcome p {
+    font-size: 24px;
+  }
+  
+  /* keshab Aryal  name  */
+  div h1 {
+    font-size: 60px;
+    color: #0077ff;
+  }
+  
+  /* software developer  */
+  div h2 {
+    font-size: 34px;
+  }
+  
+  /* lorem   */
+  div h6 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .buttons{
+      margin-top: 10px;
+  }
+  
+  .buttons a{
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      border-radius: 20px;
+      display: inline-block;
+      width: 130px;
+      text-align: center;
+  }
+  
+  .buttons .hire-me{
+    background-color: #0077ff;
+    color: white;
+  }
+  
+  .buttons .download-cv{
+      border: 1px solid rgb(170, 170, 170);
+  }
